@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PU9-hK-uEB">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="JbT-yg-OoC">
+            <objects>
+                <navigationController id="PU9-hK-uEB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AgH-D3-1zd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CoR-iX-MsM" kind="relationship" relationship="rootViewController" id="nPr-N9-E1q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="853-QA-1H4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191" y="328"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w7w-ef-2hj">
+            <objects>
+                <viewController id="CoR-iX-MsM" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Pr-CP-S7i"/>
+                        <viewControllerLayoutGuide type="bottom" id="LFy-Bz-qQ3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gE0-HG-erG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8E-eX-Dvy">
+                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <state key="normal" title="输入密码"/>
+                                <connections>
+                                    <action selector="checkPasswordAction:" destination="CoR-iX-MsM" eventType="touchUpInside" id="Et4-Jb-KJe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F8E-eX-Dvy" firstAttribute="centerY" secondItem="gE0-HG-erG" secondAttribute="centerY" id="5Nh-oq-tZ0"/>
+                            <constraint firstItem="F8E-eX-Dvy" firstAttribute="centerX" secondItem="gE0-HG-erG" secondAttribute="centerX" id="WxV-FS-8L1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nIW-Do-Amh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XiO-HB-LUs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="650" y="323"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1149D0CA1C529C8E0019332E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149D0C91C529C8E0019332E /* main.m */; };
+		1149D0CD1C529C8E0019332E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149D0CC1C529C8E0019332E /* AppDelegate.m */; };
+		1149D0D01C529C8E0019332E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149D0CF1C529C8E0019332E /* ViewController.m */; };
+		1149D0D31C529C8E0019332E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149D0D11C529C8E0019332E /* Main.storyboard */; };
+		1149D0D51C529C8E0019332E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1149D0D41C529C8E0019332E /* Assets.xcassets */; };
+		1149D0D81C529C8E0019332E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149D0D61C529C8E0019332E /* LaunchScreen.storyboard */; };
+		1149D0E71C529D140019332E /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149D0E61C529D140019332E /* PasswordView.m */; };
+		1149D0E91C529D930019332E /* PasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1149D0E81C529D930019332E /* PasswordView.xib */; };
+		1149D0EB1C52A0600019332E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1149D0EA1C52A0600019332E /* Images.xcassets */; };
+		11F797F01C52A4A600A7552C /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F797EF1C52A4A600A7552C /* InputView.m */; };
+		11F797F31C52A76A00A7552C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F797F21C52A76A00A7552C /* DemoViewController.m */; };
+		7733B98F60032DFCD64D4E01 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931328B2C805B075FEB661E4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1149D0C51C529C8D0019332E /* PasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1149D0C91C529C8E0019332E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1149D0CB1C529C8E0019332E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1149D0CC1C529C8E0019332E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1149D0CE1C529C8E0019332E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1149D0CF1C529C8E0019332E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1149D0D21C529C8E0019332E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1149D0D41C529C8E0019332E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1149D0D71C529C8E0019332E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1149D0D91C529C8E0019332E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1149D0E51C529D140019332E /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
+		1149D0E61C529D140019332E /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
+		1149D0E81C529D930019332E /* PasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordView.xib; sourceTree = "<group>"; };
+		1149D0EA1C52A0600019332E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11F797EE1C52A4A600A7552C /* InputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		11F797EF1C52A4A600A7552C /* InputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		11F797F11C52A76A00A7552C /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		11F797F21C52A76A00A7552C /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		1E4286D5B7B67A24FDCE03EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		648B797DC41EA6EE09091667 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		931328B2C805B075FEB661E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1149D0C21C529C8D0019332E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7733B98F60032DFCD64D4E01 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050B8C88974DDBBC4585F3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931328B2C805B075FEB661E4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1149D0BC1C529C8D0019332E = {
+			isa = PBXGroup;
+			children = (
+				1149D0C71C529C8D0019332E /* PasswordDemo */,
+				1149D0C61C529C8D0019332E /* Products */,
+				43A7A34BE6E568BBB41940A8 /* Pods */,
+				050B8C88974DDBBC4585F3A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1149D0C61C529C8D0019332E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1149D0C51C529C8D0019332E /* PasswordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1149D0C71C529C8D0019332E /* PasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1149D0E41C529D140019332E /* PasswordView */,
+				1149D0CB1C529C8E0019332E /* AppDelegate.h */,
+				1149D0CC1C529C8E0019332E /* AppDelegate.m */,
+				11F797EE1C52A4A600A7552C /* InputView.h */,
+				11F797EF1C52A4A600A7552C /* InputView.m */,
+				1149D0CE1C529C8E0019332E /* ViewController.h */,
+				1149D0CF1C529C8E0019332E /* ViewController.m */,
+				11F797F11C52A76A00A7552C /* DemoViewController.h */,
+				11F797F21C52A76A00A7552C /* DemoViewController.m */,
+				1149D0D11C529C8E0019332E /* Main.storyboard */,
+				1149D0D41C529C8E0019332E /* Assets.xcassets */,
+				1149D0D61C529C8E0019332E /* LaunchScreen.storyboard */,
+				1149D0D91C529C8E0019332E /* Info.plist */,
+				1149D0C81C529C8E0019332E /* Supporting Files */,
+			);
+			path = PasswordDemo;
+			sourceTree = "<group>";
+		};
+		1149D0C81C529C8E0019332E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1149D0C91C529C8E0019332E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1149D0E41C529D140019332E /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				1149D0E51C529D140019332E /* PasswordView.h */,
+				1149D0E61C529D140019332E /* PasswordView.m */,
+				1149D0E81C529D930019332E /* PasswordView.xib */,
+				1149D0EA1C52A0600019332E /* Images.xcassets */,
+			);
+			path = PasswordView;
+			sourceTree = "<group>";
+		};
+		43A7A34BE6E568BBB41940A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				648B797DC41EA6EE09091667 /* Pods.debug.xcconfig */,
+				1E4286D5B7B67A24FDCE03EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1149D0C41C529C8D0019332E /* PasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1149D0DC1C529C8E0019332E /* Build configuration list for PBXNativeTarget "PasswordDemo" */;
+			buildPhases = (
+				247149D096E6525BC5DEF113 /* Check Pods Manifest.lock */,
+				1149D0C11C529C8D0019332E /* Sources */,
+				1149D0C21C529C8D0019332E /* Frameworks */,
+				1149D0C31C529C8D0019332E /* Resources */,
+				9A0CB83E702BEB1350D02E97 /* Embed Pods Frameworks */,
+				08896DE7F3E6A6C6E74EB22F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordDemo;
+			productName = PasswordDemo;
+			productReference = 1149D0C51C529C8D0019332E /* PasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1149D0BD1C529C8D0019332E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bing;
+				TargetAttributes = {
+					1149D0C41C529C8D0019332E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1149D0C01C529C8D0019332E /* Build configuration list for PBXProject "PasswordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1149D0BC1C529C8D0019332E;
+			productRefGroup = 1149D0C61C529C8D0019332E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1149D0C41C529C8D0019332E /* PasswordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1149D0C31C529C8D0019332E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1149D0D81C529C8E0019332E /* LaunchScreen.storyboard in Resources */,
+				1149D0EB1C52A0600019332E /* Images.xcassets in Resources */,
+				1149D0D51C529C8E0019332E /* Assets.xcassets in Resources */,
+				1149D0D31C529C8E0019332E /* Main.storyboard in Resources */,
+				1149D0E91C529D930019332E /* PasswordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08896DE7F3E6A6C6E74EB22F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247149D096E6525BC5DEF113 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0CB83E702BEB1350D02E97 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1149D0C11C529C8D0019332E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1149D0D01C529C8E0019332E /* ViewController.m in Sources */,
+				1149D0CD1C529C8E0019332E /* AppDelegate.m in Sources */,
+				11F797F01C52A4A600A7552C /* InputView.m in Sources */,
+				11F797F31C52A76A00A7552C /* DemoViewController.m in Sources */,
+				1149D0CA1C529C8E0019332E /* main.m in Sources */,
+				1149D0E71C529D140019332E /* PasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1149D0D11C529C8E0019332E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1149D0D21C529C8E0019332E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1149D0D61C529C8E0019332E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1149D0D71C529C8E0019332E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1149D0DA1C529C8E0019332E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1149D0DB1C529C8E0019332E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1149D0DD1C529C8E0019332E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648B797DC41EA6EE09091667 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.PasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1149D0DE1C529C8E0019332E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4286D5B7B67A24FDCE03EF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.PasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1149D0C01C529C8D0019332E /* Build configuration list for PBXProject "PasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1149D0DA1C529C8E0019332E /* Debug */,
+				1149D0DB1C529C8E0019332E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1149D0DC1C529C8E0019332E /* Build configuration list for PBXNativeTarget "PasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1149D0DD1C529C8E0019332E /* Debug */,
+				1149D0DE1C529C8E0019332E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1149D0BD1C529C8D0019332E /* Project object */;
+}
